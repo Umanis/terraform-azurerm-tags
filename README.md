@@ -9,7 +9,7 @@ Common Azure Terraform module to normalize tagging on ressources.
 
 ```hcl
 module "umanis_tagging" {
-  source = <<path_to_module>>
+  source = "Umanis/tags/azurerm"
 
   location          = "France Central"
   client            = "XY2"
@@ -25,10 +25,6 @@ module "umanis_tagging" {
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.15.0 |
-
-## Providers
-
-No providers.
 
 ## Inputs
 
